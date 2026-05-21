@@ -10,7 +10,7 @@ pm.init_db()
 
 root = tk.Tk()
 root.title("🔐 Password Manager")
-root.geometry("400x350")
+
 root.resizable(False, False)
 
 tk.Label(root, text="Website:").pack(pady=5)
