@@ -11,7 +11,6 @@ pm.init_db()
 root = tk.Tk()
 root.title("🔐 Password Manager")
 
-root.resizable(False, False)
 
 tk.Label(root, text="Website:").pack(pady=5)
 website_entry = tk.Entry(root, width=40)
